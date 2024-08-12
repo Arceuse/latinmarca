@@ -7,7 +7,7 @@ import Navbar from './components/navbar/navbar';
 
 function App() {
   return (
-    <div className="container">
+    <div className="conteiner">
       <Navbar />
       <Routes>
         <Route path="/" element={<Inicio />} />
