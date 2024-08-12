@@ -1,0 +1,57 @@
+.opciones-navbar {
+    margin-left: auto;
+    /* Alinea el menú a la derecha */
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye uniformemente las opciones */
+}
+
+.opciones-navbar .nav {
+    display: flex;
+    justify-content: space-between;
+    /* Distribuye los elementos de la lista */
+    width: 100%;
+    /* Hace que las opciones ocupen todo el ancho disponible */
+}
+
+.opciones-navbar .nav-link {
+    padding: 10px 20px;
+    /* Espacio alrededor de los enlaces */
+    text-transform: uppercase;
+    /* Texto en mayúsculas */
+    margin: 0 10px;
+    /* Espacio adicional entre los enlaces */
+    font-size: large;
+    font-weight: bold;
+    color: white
+}
+
+.opciones-navbar .nav-link:hover {
+    color: #00356e;
+    /* Color al pasar el ratón */
+}
+
+header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* Separa el contenido del header */
+    padding: 10px 20px;
+}
+
+.navbar-diseño {
+    background: linear-gradient(to right, #0085FF, #145999);
+}
+
+h1.marca {
+    color: #fff; /* Color de la letra (blanco) */
+    text-shadow: -2px -2px 0 #000,  
+                 2px -2px 0 #000,  
+                 -2px 2px 0 #000,  
+                 2px 2px 0 #000,  
+                 4px 4px 5px rgba(0, 0, 0, 0.5); /* Sombra de texto para crear el borde negro */
+    font-size: 40px; /* Tamaño de la letra */
+    font-weight: bold; /* Grosor de la letra */
+    font-style: italic; /* Texto en cursiva */
+    margin: 0;
+}
