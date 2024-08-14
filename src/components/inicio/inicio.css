@@ -2,30 +2,95 @@
     background-color: #2E7989;
     display: flex;
     padding: 6vh 0;
-
 }
-
-.imagen {
+.seccion1 .imagen {
     width: 45%;
     display: flex;
     justify-content: center; /* Centrar horizontalmente */
     align-items: center; /* Centrar verticalmente si es necesario */
 }
-
-img {
-    width: 600px;
+.seccion1 .imagen img {
+    max-width: 600px;
+    min-width: 200px;
 }
-
-.texto{
+.seccion1 .texto{
     width: 55%;
-    padding: 0 5vh;
+    padding-left: 5vh;
+    padding-right: 12vh;
     color: white;
 }
-
-.texto h1{
+.seccion1 .texto h1{
     font-weight: bold;
-    font-size: 57px;
+    font-size: 55px;
 }
-.texto p{
+.seccion1 .texto p{
     font-size: 30px;
+}
+.seccion1 .boton-sabermas {
+    margin-top: 20px; /* Añadir un margen superior para separar el botón del texto */
+}
+.seccion1 .boton-sabermas a {
+    display: inline-block;
+    background-color: #0F2A2C; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 10px 25px; /* Espaciado interno para agrandar el botón */
+    border-radius: 25px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    font-size: 20px; /* Tamaño del texto */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+.seccion1 .boton-sabermas a:hover {
+    background-color: #010303; /* Color más oscuro en hover */
+}
+
+.seccion2{
+    background-color: #17BAB0;
+    width: 100%;
+    display: flex;
+    padding: 60px 100px;
+}
+.seccion2 .imagen {
+    width: 40%;
+    display: flex;
+    justify-content: center; 
+    align-items: center; 
+}
+.seccion2 .imagen img{
+    max-height: 460px;
+    min-height: 200px;
+}
+.seccion2 .texto {
+    width: 60%;
+    color: white;
+    padding-right: 100px;
+}
+.seccion2 .texto h1{
+    font-size: 55px;
+    font-weight: bold;
+}
+.seccion2 .texto p{
+    font-size: 30px;
+}
+.seccion2 .texto .boton-sabermas{
+    margin-top: 30px;
+}
+.seccion2 .texto .boton-sabermas a{
+    display: inline-block;
+    background-color: #0F2A2C; /* Color de fondo azul */
+    color: white; /* Color del texto */
+    padding: 10px 25px; /* Espaciado interno para agrandar el botón */
+    border-radius: 25px; /* Bordes redondeados */
+    text-decoration: none; /* Eliminar el subrayado del enlace */
+    font-size: 20px; /* Tamaño del texto */
+    transition: background-color 0.3s ease; /* Transición suave para el hover */
+}
+.seccion3{
+    background-color: #079A80;
+    display: flex;
+    padding: 6vh 0;
+}
+.seccion4{
+    background-color: #056a58;
+    display: flex;
+    padding: 6vh 0;
 }
